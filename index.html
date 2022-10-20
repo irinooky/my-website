@@ -2,8 +2,9 @@
 <html lang="en">
   <head>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Abel&family=Amatic+SC:wght@400;700&family=Chakra+Petch:wght@400;500&family=Edu+TAS+Beginner&family=IBM+Plex+Mono:wght@400;500;600&family=Inspiration&family=Kanit:wght@200;300;400;500&family=Montserrat:wght@400;700&family=Quicksand:wght@500;600;700&family=Rajdhani:wght@500;700&family=Roboto+Mono:wght@100;200;300;400;500&family=Roboto:wght@100;400&family=Silkscreen:wght@400;700&family=Source+Code+Pro&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Abel&family=Amatic+SC:wght@400;700&family=Chakra+Petch:wght@400;500&family=Edu+TAS+Beginner&family=IBM+Plex+Mono:wght@400;500;600&family=Inspiration&family=Kanit:wght@200;300;400;500&family=Montserrat:wght@400;700&family=Quicksand:wght@500;600;700&family=Rajdhani:wght@500;700&family=Roboto+Condensed&family=Roboto+Mono:wght@100;200;300;400;500&family=Roboto:wght@100;400&family=Silkscreen:wght@400;700&family=Source+Code+Pro&display=swap"
       rel="stylesheet"
     />
     <meta charset="UTF-8" />
@@ -38,7 +39,7 @@
       id="navigationBar"
     >
       <div class="container">
-        <a class="navbar-brand" href="#">Irina Bernaz</a>
+        <a class="navbar-brand" href="#" id="name">Irina Bernaz</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -53,20 +54,27 @@
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav">
             <li class="nav-item active">
-              <a class="nav-link" href="index.html"
+              <a class="nav-link" href="index.html" id="home"
                 >Home <span class="sr-only"></span
               ></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="about.html#about">About me</a>
+              <a class="nav-link" href="about.html#about" id="about"
+                >About me</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="illustrations.html#about"
+              <a
+                class="nav-link"
+                href="illustrations.html#about"
+                id="illustrations"
                 >Illustrations</a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="about.html#contact">Contact me</a>
+              <a class="nav-link" href="about.html#contact" id="contact-me"
+                >Contact me</a
+              >
             </li>
           </ul>
         </div>
@@ -74,7 +82,7 @@
     </nav>
 
     <h1>Irina Bernaz</h1>
-    <h3>Front-end developer, based in Zürich</h3>
+    <h3>Front-end developer & artist, based in Zürich</h3>
 
     <div class="navigation-links">
       <a href="about.html#contact" class="contact-link">Contact me</a>
