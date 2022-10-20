@@ -63,6 +63,7 @@ p {
     text-align: center;
     font-size: 18px;
   }
+
   p {
     font-size: 14px;
     text-align: center;
@@ -79,6 +80,9 @@ p {
   .email {
     font-size: 20px;
     margin: 10px 0;
+  }
+  #name {
+    display: none;
   }
 }
 
