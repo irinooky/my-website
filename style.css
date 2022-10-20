@@ -50,7 +50,7 @@ p {
   font-family: "Roboto", sans-serif;
   opacity: 0.9;
 }
-@media (max-width: 375px) {
+@media (max-width: 415px) {
   h1 {
     font-size: 40px;
     margin: 10px 0;
