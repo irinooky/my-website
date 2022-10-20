@@ -6,6 +6,15 @@
 :root {
   --primary-title-color: #34383c;
 }
+@media (max-width: 375px) {
+  h1 {
+    font-size: 20px;
+  }
+  p {
+    font-size: 14px;
+    text-align: center;
+  }
+}
 body {
   margin-top: 100px;
 }
