@@ -4,18 +4,6 @@
   --box-shadow: 0 5px 10px rgba(90, 90, 90, 0.3);
 }
 
-@media (max-width: 375px) {
-  h1 {
-    font-size: 60px;
-  }
-  .paragraph {
-    font-size: 14px;
-    text-align: center;
-  }
-  .img-fluid {
-    display: none;
-  }
-}
 body {
   margin-top: 100px;
 }
@@ -53,6 +41,25 @@ p {
   line-height: 1.5;
   text-align: center;
   font-family: "Roboto", sans-serif;
+}
+@media (max-width: 375px) {
+  h1 {
+    font-size: 40px;
+  }
+  h2 {
+    text-align: center;
+  }
+  p {
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .img-fluid {
+    display: none;
+  }
+  #about-apps {
+    text-align: center;
+  }
 }
 
 .navigation-links {
