@@ -14,6 +14,9 @@
     font-size: 14px;
     text-align: center;
   }
+  .img-fluid {
+    display: none;
+  }
 }
 body {
   margin-top: 100px;
