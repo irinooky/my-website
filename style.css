@@ -1,6 +1,5 @@
 :root {
   --primary-color: #9182ea;
-
   --font: "Nunito", sans-serif;
 }
 
@@ -151,11 +150,21 @@ p {
 .footer-container {
   margin-top: 90px;
 }
-#insta-icon,
-#linkedin-icon,
-#github-icon {
+
+.fa-linkedin,
+.fa-instagram,
+.fa-github {
+  color: #5b5487;
   width: 25px;
 }
+
+.fa-linkedin:hover,
+.fa-instagram:hover,
+.fa-github:hover {
+  color: #9182ea;
+  transition: all 200ms ease-in-out;
+}
+
 .icon-container {
   margin-top: 20px;
   text-align: center;
