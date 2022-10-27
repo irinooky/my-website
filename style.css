@@ -39,12 +39,17 @@ h2 {
   font-family: "Nunito", sans-serif;
   font-weight: 700;
 }
+#projects-heading {
+  margin-top: 250px;
+  margin-bottom: 100px;
+  font-size: 30px;
+}
 
 h3 {
   font-size: 24px;
   opacity: 0.8;
   font-family: "Nunito", sans-serif;
-  margin: 0 15px;
+  margin: 20px 15px;
   font-weight: 400;
 }
 .footer-title {
@@ -103,13 +108,13 @@ p {
 .email-link {
   display: flex;
   justify-content: center;
-  color: var(--primary-color);
+  color: #9182ea;
   font-size: 28px;
   text-decoration: none;
 }
 
 .email-link:hover {
-  text-decoration: underline;
+  color: #585089;
 }
 #crypto-link,
 #weather-link,
@@ -178,7 +183,7 @@ p {
   margin: 0;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 900px) {
   h1 {
     font-size: 40px;
     margin: 10px 0;
@@ -212,5 +217,8 @@ p {
   }
   #about-me-title {
     font-size: 40px;
+  }
+  #projects-heading {
+    margin: 0;
   }
 }
