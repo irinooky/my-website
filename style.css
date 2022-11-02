@@ -192,7 +192,7 @@ p {
 }
 
 footer .icon-container a {
-  background-color: #f0eefc;
+  background-color: #f9f7fe;
   padding: 10px 14px;
   color: #907efa;
 
@@ -206,7 +206,7 @@ footer .icon-container a:hover {
   transition: all 150ms ease-in-out;
 }
 footer .contact-box {
-  background-color: #f6f5ff;
+  background-color: #f9f7fe;
   padding: 30px;
   margin: 50px 122.5px;
   border-radius: 4px;
@@ -288,6 +288,10 @@ footer .contact-box {
   #subtitle-about {
     margin-top: 30px;
   }
+  #illustration-title,
+  #contact-title {
+    font-size: 30px;
+  }
 }
 @media (max-width: 1000px) {
   #projects-heading {
@@ -296,7 +300,7 @@ footer .contact-box {
   #description-container {
     padding: 0 0;
   }
-  footer {
-    display: none;
+  .email-link {
+    margin-top: 30px;
   }
 }
