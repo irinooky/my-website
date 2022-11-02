@@ -37,10 +37,15 @@ h1 {
 }
 
 h2 {
-  font-size: 30px;
+  font-size: 40px;
   opacity: 0.9;
-  font-family: "Nunito", sans-serif;
+  font-family: "IBM Plex Mono", monospace;
   font-weight: 700;
+}
+#home-heading {
+  font-family: "Nunito", sans-serif;
+  font-weight: 400;
+  opacity: 0.8;
 }
 #projects-heading {
   margin-top: 250px;
