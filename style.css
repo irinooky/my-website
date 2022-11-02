@@ -32,7 +32,7 @@ h3 {
 h1 {
   font-size: 72px;
   opacity: 0.9;
-  font-family: "Nunito", sans-serif;
+  font-family: "IBM Plex Mono", monospace;
   font-weight: 700;
 }
 
@@ -55,6 +55,14 @@ h3 {
   margin: 20px 15px;
   font-weight: 400;
 }
+h4 {
+  font-size: 50px;
+  opacity: 0.9;
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 700;
+  margin-left: 20px;
+  margin-bottom: 0;
+}
 .footer-title {
   font-size: 18px;
 }
@@ -62,7 +70,7 @@ h3 {
 .footer-container {
   padding: 15px 0;
   margin: 0 50px;
-  background-color: #f8f7ff;
+  background-color: #f4f3ff;
   border-radius: 4px;
 }
 p {
@@ -91,12 +99,22 @@ p {
   text-transform: capitalize;
 }
 
-#contact-link {
+#contact-link,
+#contact-button {
   background: var(--primary-color);
   color: white;
   font-family: "Roboto", sans-serif;
 }
-#contact-link:hover {
+#contact-button {
+  margin: 20px;
+  border-radius: 4px;
+  padding: 15px 25px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+#contact-link:hover,
+#contact-button:hover {
   background-color: white;
   color: #9182ea;
   transition: all 200ms ease-in-out;
@@ -117,13 +135,15 @@ p {
 .email-link {
   display: flex;
   justify-content: center;
-  color: #9182ea;
+  font-family: "Nunito", sans-serif;
+  color: #4d5154;
+
   font-size: 28px;
   text-decoration: none;
 }
 
 .email-link:hover {
-  color: #585089;
+  color: #907efa;
 }
 #crypto-link,
 #weather-link,
@@ -145,7 +165,7 @@ p {
 
 #about-me-title {
   margin: 200px 0;
-  font-family: "Nunito", sans-serif;
+  font-family: "IBM Plex Mono", monospace;
   font-weight: 700;
   font-size: 72px;
 }
@@ -160,25 +180,45 @@ p {
   font-size: 18px;
   line-height: 30px;
 }
+.follow-me a {
+  color: #9182ea;
+}
 .footer-container {
   margin-top: 90px;
 }
-
-.fa-linkedin,
-.fa-instagram,
-.fa-github {
-  color: #585089;
+#contact-container-button {
+  margin-top: 40px;
+  margin-right: 50px;
 }
 
-.fa-linkedin:hover,
-.fa-instagram:hover,
-.fa-github:hover {
-  color: #9182ea;
-  transition: all 200ms ease-in-out;
+footer .icon-container a {
+  background-color: #f0eefc;
+  padding: 10px 14px;
+  color: #907efa;
+
+  font-size: 18px;
+  border-radius: 50%;
 }
 
+footer .icon-container a:hover {
+  color: white;
+  background-color: #9182ea;
+  transition: all 150ms ease-in-out;
+}
+footer .contact-box {
+  background-color: #f6f5ff;
+  padding: 30px;
+  margin: 50px 122.5px;
+  border-radius: 4px;
+}
+#contact-text {
+  line-height: 30px;
+  font-size: 20px;
+  opacity: 0.7;
+  padding-top: 15px;
+}
 .icon-container {
-  margin-top: 20px;
+  margin-top: 50px;
   text-align: center;
 }
 .icon-container span {
@@ -255,5 +295,8 @@ p {
   }
   #description-container {
     padding: 0 0;
+  }
+  footer {
+    display: none;
   }
 }
