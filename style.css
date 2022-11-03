@@ -178,6 +178,9 @@ p {
 #contact-title {
   margin: 200px 0;
 }
+#contact-title {
+  margin-bottom: 150px;
+}
 
 #about-paragraph {
   padding-left: 30px;
@@ -203,6 +206,23 @@ footer .icon-container a {
 
   font-size: 18px;
   border-radius: 50%;
+}
+#insta-icon,
+#linkedin-icon,
+#github-icon {
+  background-color: #f9f7fe;
+  padding: 12px 16px;
+  color: #907efa;
+
+  font-size: 38px;
+  border-radius: 50%;
+}
+#insta-icon:hover,
+#linkedin-icon:hover,
+#github-icon:hover {
+  color: white;
+  background-color: #9182ea;
+  transition: all 150ms ease-in-out;
 }
 
 footer .icon-container a:hover {
@@ -296,6 +316,10 @@ footer .contact-box {
   #illustration-title,
   #contact-title {
     font-size: 30px;
+    margin-bottom: 50px;
+  }
+  #footer-info {
+    font-size: 16px;
   }
 }
 @media (max-width: 1000px) {
