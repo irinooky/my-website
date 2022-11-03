@@ -146,6 +146,9 @@ p {
   font-size: 28px;
   text-decoration: none;
 }
+#email-contact {
+  text-decoration: none;
+}
 
 .email-link:hover {
   color: #907efa;
@@ -209,7 +212,8 @@ footer .icon-container a {
 }
 #insta-icon,
 #linkedin-icon,
-#github-icon {
+#github-icon,
+#email-icon {
   background-color: #f9f7fe;
   padding: 12px 16px;
   color: #907efa;
