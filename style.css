@@ -273,6 +273,11 @@ footer .contact-box {
   padding: 0 10px;
   color: #9182ea;
 }
+#crypto-image,
+#weather-image,
+#loading-image {
+  margin-bottom: 0;
+}
 
 @media (max-width: 480px) {
   h1 {
